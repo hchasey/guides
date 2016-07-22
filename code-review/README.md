@@ -33,8 +33,10 @@ Having Your Code Reviewed
 * Explain why the code exists. ("It's like that because of these reasons. Would
   it be more clear if I rename this class/file/method/variable?")
 * Extract some changes and refactorings into future tickets/stories.
-* Link to the code review from the ticket/story. ("Ready for review:
+* Link to the PR from the trello card. ("Ready for review:
   https://github.com/organization/project/pull/1")
+* Link to the trello card from the PR. ("Created from:
+  https://trello/c/aBcD12/my-feature")
 * Push commits based on earlier rounds of feedback as isolated commits to the
   branch. Do not squash until the branch is ready to merge. Reviewers should be
   able to read individual updates based on their earlier feedback.
