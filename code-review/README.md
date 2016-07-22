@@ -42,9 +42,9 @@ Having Your Code Reviewed
   able to read individual updates based on their earlier feedback.
 * Seek to understand the reviewer's perspective.
 * Try to respond to every comment.
-* Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.)
-  tells you the test suite is green in the branch.
-* Merge once you feel confident in the code and its impact on the project.
+* ~~Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.)
+  tells you the test suite is green in the branch.~~
+* ~~Merge once you feel confident in the code and its impact on the project.~~
 
 Reviewing Code
 --------------
@@ -61,6 +61,9 @@ experience, refactors the existing code). Then:
   them. ("What do you think about using a custom validator here?")
 * Seek to understand the author's perspective.
 * Sign off on the pull request with a :thumbsup: or "Ready to merge" comment.
+* Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.)
+  tells you the test suite is green in the branch.
+* Merge once you feel confident in the code and its impact on the project.
 
 If you disagree with a guideline, open an issue on the guides repo rather than
 debating it within the code review. In the meantime, apply the guideline.
