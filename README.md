@@ -33,6 +33,9 @@ A note on the language:
 * "Prefer" indicates a better option and its alternative to watch out for.
 * "Use" is a positive instruction.
 
+If you disagree with a guideline, open an issue on the guides repo rather than
+debating it. In the meantime, apply the guideline.
+
 Contributing
 ------------
 

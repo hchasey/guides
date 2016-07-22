@@ -64,6 +64,3 @@ experience, refactors the existing code). Then:
 * Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.)
   tells you the test suite is green in the branch.
 * Merge once you feel confident in the code and its impact on the project.
-
-If you disagree with a guideline, open an issue on the guides repo rather than
-debating it within the code review. In the meantime, apply the guideline.
