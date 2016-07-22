@@ -20,8 +20,8 @@ Everyone
 * Don't use sarcasm.
 * Keep it real. If emoji, animated gifs, or humor aren't you, don't force them.
   If they are, use them with aplomb.
-* Talk synchronously (e.g. chat, screensharing, in person) if there are too many 
-  "I didn't understand" or "Alternative solution:" comments. Post a follow-up 
+* Talk synchronously (e.g. chat, screensharing, in person) if there are too many
+  "I didn't understand" or "Alternative solution:" comments. Post a follow-up
   comment summarizing the discussion.
 
 Having Your Code Reviewed
@@ -59,20 +59,6 @@ experience, refactors the existing code). Then:
   them. ("What do you think about using a custom validator here?")
 * Seek to understand the author's perspective.
 * Sign off on the pull request with a :thumbsup: or "Ready to merge" comment.
-
-Style Comments
---------------
-
-Reviewers should comment on missed [style](../style)
-guidelines. Example comment:
-
-    [Style](../style):
-
-    > Order resourceful routes alphabetically by name.
-
-An example response to style comments:
-
-    Whoops. Good catch, thanks. Fixed in a4994ec.
 
 If you disagree with a guideline, open an issue on the guides repo rather than
 debating it within the code review. In the meantime, apply the guideline.
