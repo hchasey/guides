@@ -61,6 +61,6 @@ experience, refactors the existing code). Then:
   them. ("What do you think about using a custom validator here?")
 * Seek to understand the author's perspective.
 * Sign off on the pull request with a :thumbsup: or "Ready to merge" comment.
-* Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.)
+* Wait to merge the branch until Continuous Integration.
   tells you the test suite is green in the branch.
 * Merge once you feel confident in the code and its impact on the project.
