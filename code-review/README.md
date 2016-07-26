@@ -20,8 +20,8 @@ Everyone
 * Don't use sarcasm.
 * Keep it real. If emoji, animated gifs, or humor aren't you, don't force them.
   If they are, use them with aplomb.
-* Talk synchronously (e.g. chat, screensharing, in person) if there are too many 
-  "I didn't understand" or "Alternative solution:" comments. Post a follow-up 
+* Talk synchronously (e.g. chat, screensharing, in person) if there are too many
+  "I didn't understand" or "Alternative solution:" comments. Post a follow-up
   comment summarizing the discussion.
 
 Having Your Code Reviewed
@@ -33,16 +33,18 @@ Having Your Code Reviewed
 * Explain why the code exists. ("It's like that because of these reasons. Would
   it be more clear if I rename this class/file/method/variable?")
 * Extract some changes and refactorings into future tickets/stories.
-* Link to the code review from the ticket/story. ("Ready for review:
+* Link to the PR from the trello card. ("Ready for review:
   https://github.com/organization/project/pull/1")
+* Link to the trello card from the PR. ("Created from:
+  https://trello/c/aBcD12/my-feature")
 * Push commits based on earlier rounds of feedback as isolated commits to the
   branch. Do not squash until the branch is ready to merge. Reviewers should be
   able to read individual updates based on their earlier feedback.
 * Seek to understand the reviewer's perspective.
 * Try to respond to every comment.
-* Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.)
-  tells you the test suite is green in the branch.
-* Merge once you feel confident in the code and its impact on the project.
+* ~~Wait to merge the branch until Continuous Integration (TDDium, TravisCI, etc.)
+  tells you the test suite is green in the branch.~~
+* ~~Merge once you feel confident in the code and its impact on the project.~~
 
 Reviewing Code
 --------------
@@ -59,20 +61,6 @@ experience, refactors the existing code). Then:
   them. ("What do you think about using a custom validator here?")
 * Seek to understand the author's perspective.
 * Sign off on the pull request with a :thumbsup: or "Ready to merge" comment.
-
-Style Comments
---------------
-
-Reviewers should comment on missed [style](../style)
-guidelines. Example comment:
-
-    [Style](../style):
-
-    > Order resourceful routes alphabetically by name.
-
-An example response to style comments:
-
-    Whoops. Good catch, thanks. Fixed in a4994ec.
-
-If you disagree with a guideline, open an issue on the guides repo rather than
-debating it within the code review. In the meantime, apply the guideline.
+* Wait to merge the branch until Continuous Integration.
+  tells you the test suite is green in the branch.
+* Merge once you feel confident in the code and its impact on the project.
