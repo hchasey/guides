@@ -84,7 +84,7 @@ How to deploy to desiringgod.org's production server.
 1. OPTIONAL: Restart heroku:
 
   ```
-  $ heroku restart
+  $ heroku restart --app <app-name>
   ```
 
 1. Announce the deploy to the team, sharing a link to the release notes.
