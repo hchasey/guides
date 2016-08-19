@@ -63,8 +63,6 @@ Rails
 * Keep `db/schema.rb` or `db/development_structure.sql` under version control.
 * Use `_url` suffixes for named routes in mailer views and [redirects].  Use
   `_path` suffixes for named routes everywhere else.
-* Use a [class constant rather than the stringified class name][class constant in association]
-  for `class_name` options on ActiveRecord association macros.
 * Validate the associated `belongs_to` object (`user`), not the database column
   (`user_id`).
 * Prefer `Time.zone.parse("2014-07-04 16:05:37")` over `Time.parse("2014-07-04 16:05:37")`
