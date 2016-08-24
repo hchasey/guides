@@ -22,7 +22,7 @@ A note on the language:
 * "Avoid" means don't do it unless you have good reason.
 * "Don't" means there's never a good reason.
 * "Prefer" indicates a better option and its alternative to watch out for.
-* "Use" is a positive instruction.
+* "Use" and other action verbs indicate positive instruction.
 
 
 Contributing
