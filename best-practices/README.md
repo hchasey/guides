@@ -102,3 +102,8 @@ Background Jobs
 ---------------
 
 * Write idempotent background jobs. This is helpful when re-running jobs that have failed midway.
+
+Scripts
+-------
+
+* Write idempotent scripts. This is helpful when re-running scripts that have failed midway.
