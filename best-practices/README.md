@@ -100,3 +100,5 @@ Testing
 
 Background Jobs
 ---------------
+
+* Write idempotent background jobs. This is helpful when re-running jobs that have failed midway.
