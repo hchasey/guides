@@ -1,5 +1,4 @@
-This Repository has been forked from [thoughtbot's guides](https://github.com/thoughtbot/guides). This is currently
-a work in progress!
+This is currently a work in progress!
 
 Guides
 ======
@@ -38,12 +37,7 @@ debating it. In the meantime, apply the guideline.
 
 Credits
 -------
-
-Thank you, [contributors](https://github.com/thoughtbot/guides/graphs/contributors)!
-
-![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
-
-Guides is maintained by [thoughtbot, inc](http://thoughtbot.com/community).
+This repository began as a fork from [thoughtbot's guides](https://github.com/thoughtbot/guides).
 
 License
 -------
