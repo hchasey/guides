@@ -24,8 +24,15 @@ A note on the language:
 * "Prefer" indicates a better option and its alternative to watch out for.
 * "Use" is a positive instruction.
 
+
+Contributing
+------------
+
 If you disagree with a guideline, open an issue on the guides repo rather than
 debating it. In the meantime, apply the guideline.
+
+A well written guide helps provide direction for the long haul, without becoming a deterrent or a roadblock. Using
+generic language keeps it from being brittle. 
 
 Credits
 -------
