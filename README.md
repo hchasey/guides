@@ -1,5 +1,4 @@
-This Repository has been forked from [thoughtbot's guides](https://github.com/thoughtbot/guides). This is currently
-a work in progress!
+This is currently a work in progress!
 
 Guides
 ======
@@ -8,16 +7,8 @@ Guides for getting things done, programming well, and programming in style.
 
 * [Best Practices](/best-practices)
 * [Code Review](/code-review)
-* [How to](/how-to)
-* [Protocol](/protocol)
-  * [Communication](/protocol/communication)
-  * [Git](/protocol/git)
-  * [iOS](/protocol/ios)
-  * [Open Source](/protocol/open-source)
-  * [Product Review](/protocol/product-review)
-  * [Rails](/protocol/rails)
-* [Security](/security)
 * [Style](/style)
+* [Workflow](/workflow)
 
 High level guidelines:
 
@@ -31,34 +22,18 @@ A note on the language:
 * "Avoid" means don't do it unless you have good reason.
 * "Don't" means there's never a good reason.
 * "Prefer" indicates a better option and its alternative to watch out for.
-* "Use" is a positive instruction.
+* "Use" and other action verbs indicate positive instruction.
 
-If you disagree with a guideline, open an issue on the guides repo rather than
-debating it. In the meantime, apply the guideline.
 
 Contributing
 ------------
 
-Please read the [contribution guidelines] before submitting a pull request.
+If you disagree with a guideline, open an issue on the guides repo rather than
+debating it. In the meantime, apply the guideline.
 
-In particular: **if you have commit access, please don't merge changes without
-waiting a week for everybody to leave feedback**.
-
-[contribution guidelines]: /CONTRIBUTING.md
+A well written guide helps provide direction for the long haul, without becoming a deterrent or a roadblock. Using
+generic language keeps it from being brittle. 
 
 Credits
 -------
-
-Thank you, [contributors](https://github.com/thoughtbot/guides/graphs/contributors)!
-
-![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
-
-Guides is maintained by [thoughtbot, inc](http://thoughtbot.com/community).
-
-License
--------
-
-Guides is © 2014 thoughtbot, inc. It is distributed under the [Creative Commons
-Attribution License](http://creativecommons.org/licenses/by/3.0/).
-
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+This repository began as a fork from [thoughtbot's guides](https://github.com/thoughtbot/guides).
