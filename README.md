@@ -36,16 +36,6 @@ A note on the language:
 If you disagree with a guideline, open an issue on the guides repo rather than
 debating it. In the meantime, apply the guideline.
 
-Contributing
-------------
-
-Please read the [contribution guidelines] before submitting a pull request.
-
-In particular: **if you have commit access, please don't merge changes without
-waiting a week for everybody to leave feedback**.
-
-[contribution guidelines]: /CONTRIBUTING.md
-
 Credits
 -------
 
