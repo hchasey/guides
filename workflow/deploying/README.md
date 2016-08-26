@@ -23,7 +23,13 @@ How to deploy to desiringgod.org's production server.
   $ git pull origin master 
   ```
 
-1. Bootstrap staging.
+1. Install any updated gems:
+
+  ```
+  $ bundle install
+  ```
+
+1. Bootstrap staging:
 
   ```
   $ bin/rake db:bootstrap_staging
