@@ -11,16 +11,24 @@ How to deploy to desiringgod.org's production server.
 
 ## Deploy Process
 
+### Preparation
+
+1. Determine what scripts need to be run pre- and post-deploy.
+
+  These scripts should already be noted by the developers; verify that this list matches what has been pushed to GitHub.
+
+  You can use the GitHub comparison feature to see all file changes for the release. For example:  https://github.com/desiringgod/desiring-god-new/compare/6.15...master (replace `6.15` with the tag of the most recent release).
+
 ### Pre-Deploy QA
 
-1. Make sure master build is passing. 
+1. Make sure master build is passing.
 
 1. Sync local master branch:
 
   ```
   $ git fetch
-  $ git checkout master 
-  $ git pull origin master 
+  $ git checkout master
+  $ git pull origin master
   ```
 
 1. Install any updated gems:
@@ -86,7 +94,7 @@ How to deploy to desiringgod.org's production server.
   ```
   heroku run rails runner Rails.cache.clear --app <app-name>
   ```
-  
+
 1. OPTIONAL: Restart heroku:
 
   ```
