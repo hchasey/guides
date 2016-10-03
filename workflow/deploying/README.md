@@ -37,7 +37,7 @@ How to deploy to desiringgod.org's production server.
   $ bundle install
   ```
 
-1. Bootstrap staging:
+1. OPTIONAL: Bootstrap staging:
 
   ```
   $ bin/rake db:bootstrap_staging
