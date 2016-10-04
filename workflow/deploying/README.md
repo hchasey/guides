@@ -37,7 +37,7 @@ How to deploy to desiringgod.org's production server.
   $ bundle install
   ```
 
-1. Bootstrap staging:
+1. IF NEEDED: Bootstrap staging:
 
   ```
   $ bin/rake db:bootstrap_staging
@@ -89,13 +89,13 @@ How to deploy to desiringgod.org's production server.
 
 1. Execute any post-deploy tasks, logging results in the release notes.
 
-1. OPTIONAL: Clear the cache:
+1. IF NEEDED: Clear the cache:
 
   ```
   heroku run rails runner Rails.cache.clear --app <app-name>
   ```
 
-1. OPTIONAL: Restart heroku:
+1. IF NEEDED: Restart heroku:
 
   ```
   $ heroku restart --app <app-name>
