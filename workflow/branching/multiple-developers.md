@@ -24,18 +24,18 @@ How to handle branching when multiple developers are involved.
 
 ## How To Work On Somebody Else's Branch
 
-1. Create a new branch off of the owner's branch, appending something relevant (such as your initials, a subfeature name, or "fed"/"bed") to create a new branch name.
+1. Create a new branch off of the owner's branch, appending something relevant (such as your initials, a subfeature name, or "-fed"/"-bed") to create a new branch name.
 
    ```
    $ git checkout origin/feature/your-new-feature
-   $ git checkout -b feature/your-new-feature/fed
+   $ git checkout -b feature/your-new-feature-fed
    ```
 
 1. Rebase regularly against the owner's branch to keep up with the latest changes.
 
    ```
    $ git fetch
-   $ git checkout feature/your-new-feature/fed
+   $ git checkout feature/your-new-feature-fed
    $ git rebase origin/feature/your-new-feature
    ```
 
