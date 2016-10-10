@@ -1,34 +1,56 @@
 
 # Branching with Multiple Developers
 
-How to handle branching when multiple developers are involved
+How to handle branching when multiple developers are involved.
 
 ## Preconditions
 
-* Choose one developer to be the owner of the branch. This developer will be responsible for merging in code done by other developers and generally responsible for the health and status of the branch (such as keeping it rebased against master.)
+* Choose one developer to be the **owner** of the branch. The owner will usually be a backend developer.
 
-## To Begin
+## Owner Responsibilities
 
-1. The owner of the branch should always create the branch, even if they will not be doing the first commit on the branch.
+* Create the branch, even if another developer will be making the first commits.
 
-2. The owner should push the branch to origin when the next developer will need to be involved.
+  ```
+  $ git checkout -b feature/your-new-feature
+  $ git push origin feature/your-new-feature
+  ```
 
-## When Another Developer Gets Involved
+* Keep the branch rebased against master.
 
-1. When another developer is ready to start working on the branch, they should first pull the branch from origin.
+* Review and accept pull requests made by other developers against the branch.
 
-2. This developer should never make changes directly on the branch. They should create another branch off off the original branch.
+* Shepherd the branch through its final code review and merge.
 
-3. When they've finished a set of changes, they should submit a PR against the original branch, assigning it to the owner of the branch.
+## How To Work On Somebody Else's Branch
 
-4. The owner of the branch can review the PR to the level of satisfaction they would like before merging it in, and can request any changes they would like. There is no formal process for this, and the level of detail or quality required here is unique and specific to each branch and situation.
+1. Create a new branch off of the owner's branch, appending something relevant (such as your initials, a subfeature name, or "fed"/"bed") to create a new branch name.
 
-5. The recommendation is to submit lots of smaller PRs rather than one bigger one, and create new branches regularly.
+   ```
+   $ git checkout origin/feature/your-new-feature
+   $ git checkout -b feature/your-new-feature/fed
+   ```
 
-## Other Notes
+1. Rebase regularly against the owner's branch to keep up with the latest changes.
 
-1. If the original branch needs changes from master, only the owner of the branch should rebase off master, the developer gets explicit permission from the owner of the branch.
+   ```
+   $ git fetch
+   $ git checkout feature/your-new-feature/fed
+   $ git rebase origin/feature/your-new-feature
+   ```
 
-2. Likewise, only the owner of the branch should ever do a force push (`git push -f`) on the branch unless they have explicit permission from the owner.
+1. When finished, submit a PR to the owner's branch and assign it to the owner. The owner will review it, possibly request changes, and merge the PR in.
 
-3. Other developers can submit PRs tagged as DO NOT MERGE if they need to deploy a review app and then close their PR when they are done.
+### Notes
+
+* As with pull requests against `master`, it is better to submit many small PRs than one large PR, if possible.
+
+* Never rebase directly off of `master`.
+
+* Never push directly to the owner's branch.
+
+* Use the "DO NOT MERGE" tage to submit a PR to deploy a review app, and then close the PR when finished.
+
+## Transfer Of Ownership
+
+It will sometimes be appropriate to hand off ownership of a branch. This will usually be from a frontend to a backend developer, or from a backend to another backend developer. This should be the exception and not the norm.
