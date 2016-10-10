@@ -53,4 +53,4 @@ How to handle branching when multiple developers are involved.
 
 ## Transfer Of Ownership
 
-It will sometimes be appropriate to hand off ownership of a branch. This will usually be from a frontend to a backend developer, or from a backend to another backend developer. This should be the exception and not the norm.
+To transfer ownership of a branch, communicate clearly with all participants the name of the new owner.
