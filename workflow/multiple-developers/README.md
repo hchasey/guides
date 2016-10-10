@@ -49,7 +49,7 @@ How to handle branching when multiple developers are involved.
 
 * Never push directly to the owner's branch.
 
-* Use the "DO NOT MERGE" tage to submit a PR to deploy a review app, and then close the PR when finished.
+* Use the "DO NOT MERGE" tag to submit a PR to deploy a review app, and then close the PR when finished.
 
 ## Transfer Of Ownership
 
