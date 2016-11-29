@@ -107,3 +107,15 @@ Scripts
 -------
 
 * Write idempotent scripts. This is helpful when re-running scripts that have failed midway.
+
+Commits
+-------
+
+* [Maintain the subject / body distinction][commit-messages] in commit messages.
+  The blank line separating the subject from the body is critical.
+* [Write commit messages in the imperative][commit-messages]: "Fix bug" and not "Fixed bug" or "Fixes bug".
+* Explain the changes in your commit in the body of the commit message. Error on the side of verbosity when
+  writing the body of a commit messages.
+
+
+[commit-messages]:http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
