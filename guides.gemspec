@@ -17,5 +17,5 @@ Gem::Specification.new do |spec|
     raise 'RubyGems 2.0 or newer is required to protect against public gem pushes.'
   end
 
-  spec.add_dependency 'rubocop', '0.42.0'
+  spec.add_dependency 'rubocop'
 end
