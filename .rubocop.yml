@@ -183,6 +183,14 @@ Style/SingleLineBlockParams:
   Description: 'Enforces the names of some block params.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#reduce-blocks'
   Enabled: false
+  
+# Disable this because it's a really useful short form way of dealing with exceptions in certain scenarios.
+# Leave it up to the developer to make that decision.
+Style/RescueModifier:
+  Description: 'Avoid using rescue in its modifier form.'
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-rescue-modifiers
+  Enabled: false
+
 
 # This seems to be a nice line length for github
 Metrics/LineLength:
