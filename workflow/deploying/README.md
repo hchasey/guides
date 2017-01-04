@@ -41,13 +41,7 @@ If you need to run scripts as a part of your release:
 1. IF NEEDED: Execute any pre-deploy tasks.
 
 1. Giving yourself enough room for supporting the release (give yourself a few hours after the deploy), **merge
-  your branch** into remote master.
-
-  This will:
-
-  - Trigger a CI build. (Rebuild CI to fix spurious failures. Submit PR to fix bugs.)
-
-  - Trigger a deploy once CI build passes.
+  your branch** into remote master. **That will trigger the deploy to production.**
 
   **WARNING: It is presently undefined what should happen if something new gets merged into master at this point.**
 
