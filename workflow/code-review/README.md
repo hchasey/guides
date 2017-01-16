@@ -2,6 +2,28 @@
 
 A guide for reviewing code and having your code reviewed.
 
+## Summary of roles
+
+- `author` — the person(s) who wrote the commit(s). Will not change.
+- `reviewer` — the person(s) who reviews and approves/rejects the PR. Usually will not change.
+- `assignee` — the person(s) who is responsible for the next action. The ball is in their court. Will change.
+
+## Process
+
+1. Begin a code review by submitting a PR against the branch you want your code merged into. This will usually be the `master` branch, but could be another branch.
+1. Use the "reviewers" field to indicate who should review your PR. Be proactive and pick who you think would be best and assign them.
+  - You can assign one or more than one person.
+  - You can choose reviewers based on expertise and/or based on availability.
+  - You can determine availability by asking the team or seeing who has few PRs assigned in GitHub.
+  - If you are unsure who to assign, this can be left blank until you are ready to begin the review process.
+1. When your code is ready for review, make the reviewers the "assignees".
+1. The reviewer then reviews the code and either approves it or requests changes, using the GitHub widget.
+1. The reviewer should assign the PR back to the author when the author needs to take the next action (either respond to questions, make changes, or release).
+1. Once approved, the PR is ready to be merged.
+  - If the PR is against `master`, the **author** triggers a release by merging, first announcing the release to the team.
+  - If the PR is against another branch, the **branch owner** may merge into the parent branch when desired.
+1. Once merged, delete the branch.
+
 ## Remember
 
 ### Everyone
