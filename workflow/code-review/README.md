@@ -1,10 +1,10 @@
-Code Review
-===========
+# Code Review
 
 A guide for reviewing code and having your code reviewed.
 
-Everyone
---------
+## Remember
+
+### Everyone
 
 * Accept that many programming decisions are opinions. Discuss tradeoffs, which
   you prefer, and reach a resolution quickly.
@@ -24,8 +24,7 @@ Everyone
   "I didn't understand" or "Alternative solution:" comments. Post a follow-up
   comment summarizing the discussion.
 
-Having Your Code Reviewed
--------------------------
+### Having Your Code Reviewed
 
 * Be grateful for the reviewer's suggestions. ("Good call. I'll make that
   change.")
@@ -45,8 +44,7 @@ Having Your Code Reviewed
 * Wait to merge the branch until Continuous Integration tells you the test suite is green in the branch.
 * Merge once you feel confident in the code and its impact on the project.
 
-Reviewing Code
---------------
+### Reviewing Code
 
 Understand why the change is necessary (fixes a bug, improves the user
 experience, refactors the existing code). Then:
