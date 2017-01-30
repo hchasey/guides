@@ -82,12 +82,21 @@ Rails
 Testing
 -------
 
-* Avoid using instance variables in tests.
-* Disable real HTTP requests to external services with
-  `WebMock.disable_net_connect!`.
+* Follow guidelines in [Better Specs][better-specs]
+* Look to your team to make judgment calls. Your team is your best friend in helping you make them.
+* The rules are intended to serve us, not rule us. If a rule is not benefiting us, it can be circumvented.
+* Write tests for non-trivial code. This saves us money. 
+* Don't write tests for trivial code. This also saves us money.
+* Make good judgements on what is trivial and what is not. Not everything that looks trivial, is so. Simple is not trivial.
+* Test only happy paths in acceptance tests. Acceptances tests are end-to-end tests. 
+  They are very expensive! Testing happy paths gives you enough assurance that all layers of code are working.
+* Avoid testing exceptions, edge cases, convoluted logic in acceptances tests. Prefer unit tests to test them.
+* Avoid using instance variables in ruby unit tests.
 * Don't test private methods.
-* Use acceptance tests to execute the entire app.
+* Avoid writing tests purely for the reason of specification / documentation on libraries that are familiar and reliable. 
+  A couple examples are `attr_accessor` for PORO and trivial validations for ActiveRecord Objects. 
 
+[better-specs]: http://betterspecs.org/
 [dependency injection]: http://en.wikipedia.org/wiki/Dependency_injection
 [subject-example]: ../style/testing/unit_test_spec.rb
 [avoid-let]: ../style/testing/avoid_let_spec.rb
