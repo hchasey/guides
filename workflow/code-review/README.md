@@ -11,6 +11,12 @@ A guide for reviewing code and having your code reviewed.
 ## Process
 
 1. Begin a code review by submitting a PR against the branch you want your code merged into. This will usually be the `master` branch, but could be another branch.
+  - If this has any user facing UX or UI changes, be sure to include a screenshot, or preferrably, a gif of the change this PR introduces.
+    - This helps the reviewer gain context and a visual cue to what they should look out for.
+    - Tools you can use to create the screenshots or gifs:
+      - [macOS built in screenshot feature](http://www.imore.com/screenshot-mac)
+      - [Skitch](https://evernote.com/skitch/)
+      - [Giphy Capture](https://giphy.com/apps#giphycapture)
 1. Use the "reviewers" field to indicate who should review your PR. Be proactive and pick who you think would be best and assign them.
   - You can assign one or more than one person.
   - You can choose reviewers based on expertise and/or based on availability.
