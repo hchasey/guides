@@ -5,6 +5,7 @@ Helpful information for debugging, interacting, and just plain getting to know e
 **Add Yourself** - Open a PR and add any amount of information you think would be helpful to your peers.
 
 * [Scott Corgan](#scott-corgan)
+* [Isaac Vazquez](#isaac-vazquez)
 
 ## Scott Corgan
 
@@ -37,3 +38,27 @@ Helpful information for debugging, interacting, and just plain getting to know e
   * [Tweebot](https://tapbots.com/tweetbot/mac/) - Twitter app (no ads and tweets are in chronological order!)
   * [Hackernews](https://vue-hn.now.sh/top)
   * [Instapaper](https://www.instapaper.com)
+
+
+## Isaac Vazquez
+
+* **Development:**
+  * **IDE:** Sublime Text
+  * **Browser:** Chrome
+  * **Terminal:**
+    * iTerm
+  * **Git:**
+    * [Hub](https://hub.github.com/)
+* **Computer:**
+  * **OS:** macOS
+  * **Computer:** Macbook Pro 13"
+* **Utilities:**
+  * [Things](https://culturedcode.com/things/) - Best Todo list app I've used (Design and functionality)
+  * [Alfred](https://www.alfredapp.com/) - Like spotlight, but prettier
+  * [Numi](https://numi.io/) - Beautiful calculator app
+  * [Mou](http://25.io/mou/) - Markdown Editor
+* **Music:**
+  * Spotify
+  * Itunes
+* **News:**
+  * Twitter (I follow CNN, New York Times, etc. I just wait for News accounts and other people to tweet what's going on in the world. It's super fast and requires minimal effort on my part.)
