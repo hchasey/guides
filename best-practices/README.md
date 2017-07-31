@@ -116,6 +116,7 @@ Scripts
 -------
 
 * Write idempotent scripts. This is helpful when re-running scripts that have failed midway.
+* Use PM or PL dynos when running a script on production. They help speed up running time appreciably. `--size=performance-l`
 
 Commits
 -------
