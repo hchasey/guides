@@ -4,7 +4,7 @@ Guides
 Guides for getting things done, programming well, and programming in style.
 
 * [Best Practices](/best-practices)
-* [Code Review](/code-review)
+* [Code Review](/workflow/code-review)
 * [Style](/style)
 * [Workflow](/workflow)
 
