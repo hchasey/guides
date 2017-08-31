@@ -3,6 +3,7 @@ JavaScript
 
 [Sample](sample.js)
 
+* Use `snake_case` for file names like `header_animation.es6`.
 * Prefer ES6 classes over prototypes.
 * Use strict equality checks (`===` and `!==`) except when comparing against
   (`null` or `undefined`).
