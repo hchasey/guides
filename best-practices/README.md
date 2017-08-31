@@ -10,9 +10,7 @@ General
   when in doubt.
 * Don't duplicate the functionality of a built-in library.
 * Don't write code that guesses at future functionality.
-* [Keep the code simple].
-
-[Keep the code simple]: http://www.readability.com/~/ko2aqda2
+* Keep the code simple.
 
 Object-Oriented Design
 ----------------------
