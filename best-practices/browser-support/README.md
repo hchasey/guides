@@ -24,14 +24,14 @@ Related resources:
 
 ## Browser Support
 
-Since browsers do not perfectly implement or agree on standards and we have to write and test software today for actual users using web browsers, there comes a point to define a list of the most used browsers on on desiringGod.org. Below is a list of the most used (greater than 1 percent of traffic over 3 months) browsers and versions as of _March 31, 2016_.
+Since browsers do not perfectly implement or agree on standards and we have to write and test software today for actual users using web browsers, there comes a point to define a list of the most used browsers on on desiringGod.org. Below is a list of the most used (greater than 1 percent of traffic over 3 months) browsers and versions as of _Augut 31, 2017_.
 
 1. Safari
 - Chrome
-- Internet Explorer (11+)
+- Android Webview
 - Firefox
-- Android Browser (4.0)
-- Opera Mini 
+- Internet Explorer (11+)
+- Edge
 
 Unless otherwise specified, the version is the current release.
 
