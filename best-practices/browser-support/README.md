@@ -27,11 +27,11 @@ Related resources:
 Since browsers do not perfectly implement or agree on standards and we have to write and test software today for actual users using web browsers, there comes a point to define a list of the most used browsers on on desiringGod.org. Below is a list of the most used (greater than 1 percent of traffic over 3 months) browsers and versions as of _Augut 31, 2017_.
 
 1. Safari
-- Chrome
-- Android Webview
-- Firefox
-- Internet Explorer (11+)
-- Edge
+2. Chrome
+3. Android Webview
+4. Firefox
+5. Internet Explorer (11+)
+6. Edge
 
 Unless otherwise specified, the version is the current release.
 
